@@ -1,0 +1,221 @@
+Kitchen Mod
+	Livre de recettes
+		~~livre + objet du mod~~
+		recettes:
+	Electricité
+		prise
+		interrupteur
+		cable
+			**cableur**
+		generateur
+			solaire
+				panneau photovolataique
+			charbon
+			
+			petrole
+			
+			nucléaire
+	Meubles
+		lavabot
+			
+		evier
+			meuble de cuisine + lavabot
+			robinetterie
+			plomberie
+			pompe
+		plan de travail
+		buffet
+		colonne de cuisine
+		étagère
+	electro-menager
+		machine à café
+		~~hottes~~
+			ventilo
+			metal
+			filtre
+				papier
+					fibre
+						bambou ou bois
+						couteau
+					eau
+		congélateur
+		plaque chauffante
+			resistance
+			verre noir
+		distillateur
+		four
+			resistance
+			lames ventilo
+			cadre en metal
+			vitre
+			plaque de four
+			avec plaque
+			sans plaque
+				Gaz
+		micro-onde
+			verre teinté
+			transformateur
+			agitateur
+			magnetron
+		grille pain
+			resistance
+			metal
+		mixeur
+		melangeur
+			moteur
+			bol en aluminium
+		frigo
+			compresseur
+			detendeur
+			thermostat
+		machine à pates electrique
+	Cuisson
+		brasero
+		barbecue
+		broche
+	ustensiles
+		coupe frite
+		wok
+		planche à découper
+		couvert
+			fourchette
+			couteau
+			cuillère
+			fouet
+		recipients
+			bols
+			bahut(voir wiki)
+			
+		attendrisseur
+		emporte piece
+		poele
+		casserole
+		chinois
+		rouleau à patisserie
+	nourriture
+		Plantes
+			Feuilles
+				Verveine
+				menthe
+				Roiboos
+			olivier
+			tounesol
+			oranger
+			amandier
+			noyer
+			avoine
+			
+			Fruit
+				pomme
+				poire
+				banane
+				clementine
+				orange
+				pasteque
+				fraise 
+				cerise
+				peche
+			
+			Legumes
+				oignon
+				champignon
+				salade
+				aubergine
+				cougette
+				tomate
+				mais
+				carotte 
+				pomme de terre
+				patate douce
+
+		Viandes,Poisson	
+			Poisson
+				bar
+				saumon
+				maquerau
+				thon
+				crevette
+				poulpe
+			Viande		
+				custom
+					dinde
+				boeuf
+					filet
+					foie
+					coeur
+					langue
+					cote
+				porc
+					bebe
+					jarret
+					gras
+					sang
+					filet
+					peau
+					cote
+					pied
+				poulet
+					cuisse
+					filet
+					foie
+				mouton
+				agneau
+				chien
+				chat
+				villageois
+		cereale
+			café
+			farines
+				blé
+				avoive
+				mais
+		produit laitiers
+			lait 
+				vache
+				soja
+				amandes
+			beurre
+			creme
+		matieres grasses
+			huiles
+				tounesol
+				arachides
+				amandes
+				noisette
+				olive
+				noix
+					casse-noix
+		alcool
+			vodka
+				pomme de terre
+			rhum
+				canne à sucre
+					pressé -> jus de canne
+	Gaz
+		monoxyde de carbone
+			combustion du bois
+		
+	Minerais
+		quartz
+		feldspath
+		houille
+		acier
+		aluminum
+			bauxite
+		fer
+		charbon
+		cuivre
+		silicium
+			sable
+			quartz
+		uranium
+		plastique
+			pétrole
+			distillation
+			assemblage
+		
+	principe à mettre en place
+		distillation fractionnée
+		condensateur
+		detendeur
+		

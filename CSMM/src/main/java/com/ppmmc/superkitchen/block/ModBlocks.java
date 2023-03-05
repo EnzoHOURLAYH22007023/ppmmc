@@ -1,11 +1,11 @@
 package com.ppmmc.superkitchen.block;
 
 import com.ppmmc.superkitchen.SuperKitchen;
+import com.ppmmc.superkitchen.block.custom.ElectricOven;
 import com.ppmmc.superkitchen.item.ModItemGroup;
 import com.ppmmc.superkitchen.item.ModItems;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -14,7 +14,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import org.lwjgl.system.CallbackI;
 
 import java.util.function.Supplier;
 
@@ -27,6 +26,12 @@ public class ModBlocks {
                     .harvestLevel(2)
                     .harvestTool(ToolType.PICKAXE)
                     .hardnessAndResistance(5f)));
+
+    public static final RegistryObject<Block> OVEN = registerBlock("electric_oven",
+            () -> new ElectricOven(AbstractBlock.Properties.create(Material.IRON)
+                    .harvestTool(ToolType.PICKAXE)
+                    .hardnessAndResistance((5f))));
+
     private static  <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name,block);
         registerBlockItem(name,toReturn);
