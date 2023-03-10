@@ -1,5 +1,19 @@
 {
   "variants": {
-    "": {"model": "superkitchen:block/electric_oven"}
+    "facing=east": {
+      "model": "superkitchen:block/electric_oven",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "superkitchen:block/electric_oven",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "superkitchen:block/electric_oven"
+    },
+    "facing=west": {
+      "model": "superkitchen:block/electric_oven",
+      "y": 90
+    }
   }
 }
